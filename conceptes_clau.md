@@ -25,7 +25,7 @@ L'arquitectura de la pràctica té 784 entrades, una capa oculta de 64 neurones 
 Les funcions d'activació permeten a la xarxa aprendre patrons més complexos que una simple transformació lineal. La pràctica utilitza **ReLU** (*Rectified Linear Unit*):
 
 $$
-\operatorname{ReLU}(z) = \max(0, z)
+ReLU(z) = \max(0, z)
 $$
 
 Els valors negatius passen a ser zero i els positius es mantenen. La xarxa de la pràctica és `Linear(784, 64) → ReLU → Linear(64, 10)`.
